@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tesia Srivastava | AI & Data Science Portfolio</title>
+    <meta name="description" content="Personal portfolio of Tesia Srivastava, B.Tech student in Artificial Intelligence & Data Science at REVA University. Showcasing projects in ML, Python, Excel automation, and business communication.">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts: Outfit (Headings) and Inter (Body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="light-theme">
+    <!-- Background dynamic grids/blobs for visual interest -->
+    <div class="bg-decorations">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="grid-pattern"></div>
+    </div>
+
+    <!-- Header / Translucent Navigation -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-accent">TS</span>Tesia Srivastava
+            </a>
+            <nav class="nav-menu" id="nav-menu">
+                <ul>
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#experience" class="nav-link">Education & Exp</a></li>
+                    <li><a href="#blog" class="nav-link">Blog</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="nav-actions">
+                <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle dark/light theme">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle mobile menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- 7.1 Home / Hero Section -->
+        <section id="home" class="hero-section section-padding">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="badge">B.Tech Student @ REVA University</div>
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="gradient-text">Tesia Srivastava</span>
+                    </h1>
+                    <h2 class="hero-subtitle">Aspiring AI & Data Science Professional</h2>
+                    <p class="hero-description">
+                        Currently pursuing B.Tech in Artificial Intelligence & Data Science at REVA University, Bengaluru. 
+                        I specialize in translating raw data into clear business insights, leveraging Python, machine learning, 
+                        and Excel automation, combined with strong communication skills for corporate and consulting environments.
+                    </p>
+                    <div class="hero-ctas">
+                        <a href="#projects" class="btn btn-primary">View Projects <i class="fa-solid fa-arrow-down"></i></a>
+                        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                        <a href="assets/resume-placeholder.pdf" class="btn btn-outline" download><i class="fa-solid fa-file-arrow-down"></i> Resume</a>
+                    </div>
+                    <div class="hero-socials">
+                        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="hero-socials-link linkedin" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="hero-socials-link github" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="hero-socials-link instagram" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="mailto:tesia.srivastava@gmail.com" class="hero-socials-link website" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="image-wrapper">
+                        <!-- User-provided Profile Photo -->
+                        <img src="assets/profile-avatar.jpg" alt="Tesia Srivastava Profile Photo" class="profile-img" onerror="this.src='https://api.dicebear.com/7.x/bottts-neutral/svg?seed=Tesia';">
+                        <div class="ring ring-1"></div>
+                        <div class="ring ring-2"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7.2 About Section -->
+        <section id="about" class="about-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">About Me</span>
+                    <h2>My Journey & Goals</h2>
+                </div>
+                <div class="about-grid reveal">
+                    <div class="about-text-column">
+                        <p class="lead-text">
+                            I am a first-year undergraduate student passionate about bridging the gap between technical data capabilities 
+                            and real-world business strategy.
+                        </p>
+                        <p>
+                            Studying Artificial Intelligence & Data Science at REVA University has provided me with a rigorous foundation 
+                            in analytical thinking, statistics, and computing. Beyond the code, I am highly interested in how companies 
+                            make data-driven decisions and communicate their strategies. I enjoy organizing data, automating repetitive 
+                            spreadsheets, and drafting outreach campaigns that build professional connections.
+                        </p>
+                        <div class="currently-learning-box">
+                            <h3><i class="fa-solid fa-graduation-cap"></i> What I'm Focused On Now</h3>
+                            <div class="focus-grid">
+                                <div class="focus-item">
+                                    <span class="focus-dot"></span>
+                                    <div><strong>Data Analysis:</strong> Processing and structures in Excel and Python</div>
+                                </div>
+                                <div class="focus-item">
+                                    <span class="focus-dot"></span>
+                                    <div><strong>ML Basics:</strong> Regressions, classification models, and statistics</div>
+                                </div>
+                                <div class="focus-item">
+                                    <span class="focus-dot"></span>
+                                    <div><strong>Communication:</strong> Corporate outreach, email drafting, and sales navigation</div>
+                                </div>
+                                <div class="focus-item">
+                                    <span class="focus-dot"></span>
+                                    <div><strong>Next Goals:</strong> Securing data analyst or business analyst internships</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-timeline-column">
+                        <h3>Milestones</h3>
+                        <div class="mini-timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h4 class="timeline-title">B.Tech AI & Data Science</h4>
+                                    <p class="timeline-subtitle">REVA University (2025 - Present)</p>
+                                    <p class="timeline-desc">First-year student learning foundation programming, mathematics, and data structures.</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h4 class="timeline-title">Portfolio Launch</h4>
+                                    <p class="timeline-subtitle">June 2026</p>
+                                    <p class="timeline-desc">Designed and deployed this interactive space to organize my academic projects and resume.</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h4 class="timeline-title">Career Aspirations</h4>
+                                    <p class="timeline-subtitle">Consulting & Analytics Roles</p>
+                                    <p class="timeline-desc">Targeting internships to apply statistical reasoning and Excel automation to business operations.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7.4 Skills Section -->
+        <section id="skills" class="skills-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Capabilities</span>
+                    <h2>Skills & Toolset</h2>
+                </div>
+                <div class="skills-grid reveal">
+                    <!-- Category 1 -->
+                    <div class="skill-card">
+                        <div class="skill-icon-wrapper purple-glow">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <h3>Programming & Dev Tools</h3>
+                        <p class="skill-card-description">Core technical utilities for building and managing codebases.</p>
+                        <div class="skill-tags">
+                            <span class="skill-tag-item">Python (Basic)</span>
+                            <span class="skill-tag-item">C++ (Basic)</span>
+                            <span class="skill-tag-item">Git & GitHub</span>
+                            <span class="skill-tag-item">Arduino (Basic)</span>
+                            <span class="skill-tag-item">HTML/CSS</span>
+                        </div>
+                    </div>
+                    <!-- Category 2 -->
+                    <div class="skill-card">
+                        <div class="skill-icon-wrapper blue-glow">
+                            <i class="fa-solid fa-chart-pie"></i>
+                        </div>
+                        <h3>Data Science & ML</h3>
+                        <p class="skill-card-description">Fundamentals for extracting, sorting, and analyzing data patterns.</p>
+                        <div class="skill-tags">
+                            <span class="skill-tag-item">Excel (Intermediate)</span>
+                            <span class="skill-tag-item">Data Cleaning</span>
+                            <span class="skill-tag-item">Exploratory Data Analysis</span>
+                            <span class="skill-tag-item">Statistics</span>
+                            <span class="skill-tag-item">Linear Regression</span>
+                        </div>
+                    </div>
+                    <!-- Category 3 -->
+                    <div class="skill-card">
+                        <div class="skill-icon-wrapper teal-glow">
+                            <i class="fa-solid fa-paper-plane"></i>
+                        </div>
+                        <h3>Business & Corporate</h3>
+                        <p class="skill-card-description">Communication techniques tailored for corporate environments and HR.</p>
+                        <div class="skill-tags">
+                            <span class="skill-tag-item">Professional Email Drafting</span>
+                            <span class="skill-tag-item">B2B Outreach</span>
+                            <span class="skill-tag-item">Talent Acquisition Comms</span>
+                            <span class="skill-tag-item">Presentation Design</span>
+                        </div>
+                    </div>
+                    <!-- Category 4 -->
+                    <div class="skill-card">
+                        <div class="skill-icon-wrapper green-glow">
+                            <i class="fa-solid fa-laptop-code"></i>
+                        </div>
+                        <h3>Platforms & Remote</h3>
+                        <p class="skill-card-description">Standard tools for office operations, sales, and remote setup.</p>
+                        <div class="skill-tags">
+                            <span class="skill-tag-item">Microsoft Excel</span>
+                            <span class="skill-tag-item">LinkedIn Sales Navigator</span>
+                            <span class="skill-tag-item">Outlook & Teams</span>
+                            <span class="skill-tag-item">TeamViewer / AnyDesk</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7.3 Projects Section -->
+        <section id="projects" class="projects-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">My Work</span>
+                    <h2>Featured Projects</h2>
+                </div>
+                <!-- Filters -->
+                <div class="projects-filter">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="Python">Python</button>
+                    <button class="filter-btn" data-filter="Excel">Excel</button>
+                    <button class="filter-btn" data-filter="ML">Machine Learning</button>
+                    <button class="filter-btn" data-filter="Communication">Communication</button>
+                </div>
+                <!-- Grid -->
+                <div class="projects-grid" id="projects-grid">
+                    <!-- Card 1 -->
+                    <div class="project-card reveal" data-category="Python Communication IoT">
+                        <div class="project-card-header">
+                            <span class="project-card-tag">Python</span>
+                            <span class="project-card-tag">IoT</span>
+                        </div>
+                        <h3>ProfAlert: Real-Time Professor Campus Locator</h3>
+                        <p class="project-card-excerpt">An app that tracks and locates faculty members in real-time within the university campus using WiFi triangulation beacons.</p>
+                        <div class="project-card-footer">
+                            <button class="btn-text open-project" data-id="project-1">View Details <i class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="project-card reveal" data-category="C++ IoT">
+                        <div class="project-card-header">
+                            <span class="project-card-tag">C++</span>
+                            <span class="project-card-tag">IoT</span>
+                        </div>
+                        <h3>Smart IoT Noise Level Detection System</h3>
+                        <p class="project-card-excerpt">Developed a sound monitoring system using ESP8266 and decibel sensors to flag noise threshold violations in silent zones.</p>
+                        <div class="project-card-footer">
+                            <button class="btn-text open-project" data-id="project-2">View Details <i class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="project-card reveal" data-category="Python ML">
+                        <div class="project-card-header">
+                            <span class="project-card-tag">Python</span>
+                            <span class="project-card-tag">ML</span>
+                        </div>
+                        <h3>Smart Facial Recognition Attendance Logger</h3>
+                        <p class="project-card-excerpt">Created an automated facial identification system using Python and OpenCV to log class attendance directly into database tables.</p>
+                        <div class="project-card-footer">
+                            <button class="btn-text open-project" data-id="project-3">View Details <i class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="project-card reveal" data-category="Excel Communication">
+                        <div class="project-card-header">
+                            <span class="project-card-tag">Excel</span>
+                            <span class="project-card-tag">Communication</span>
+                        </div>
+                        <h3>Talent Acquisition Email Outreach Optimizer</h3>
+                        <p class="project-card-excerpt">Automated dynamic email templates using Excel macros, reducing outreach drafting time by 60% for student recruitment.</p>
+                        <div class="project-card-footer">
+                            <button class="btn-text open-project" data-id="project-4">View Details <i class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7.5 Experience & Education Section -->
+        <section id="experience" class="experience-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Timeline</span>
+                    <h2>Education & Experience</h2>
+                </div>
+                <div class="timeline-container reveal">
+                    <div class="timeline-block">
+                        <div class="timeline-badge-icon"><i class="fa-solid fa-university"></i></div>
+                        <div class="timeline-card">
+                            <span class="timeline-card-date">2025 - Present</span>
+                            <h3>B.Tech in Artificial Intelligence & Data Science</h3>
+                            <span class="timeline-card-subtitle">REVA University, Bengaluru</span>
+                            <p>Currently maintaining robust scores while engaging in subjects like Python programming, Calculus, Statistics, and Data Structures. Active participant in college technical seminars and community clubs.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-block">
+                        <div class="timeline-badge-icon"><i class="fa-solid fa-users-gear"></i></div>
+                        <div class="timeline-card">
+                            <span class="timeline-card-date">2026</span>
+                            <h3>Academic Project Lead - Data Analytics Hack</h3>
+                            <span class="timeline-card-subtitle">REVA University Hackathon</span>
+                            <p>Organized a 3-member team to build a visual spreadsheet tracker summarizing dataset profiles. Handled data cleaning and drafted the final pitching presentation to the judges.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-block">
+                        <div class="timeline-badge-icon"><i class="fa-solid fa-briefcase"></i></div>
+                        <div class="timeline-card">
+                            <span class="timeline-card-date">Future Goal</span>
+                            <h3>Internships in Consulting & IT Analytics</h3>
+                            <span class="timeline-card-subtitle">Open to Opportunities</span>
+                            <p>Seeking early-career internships where I can assist senior consultants and analysts with data preparation, client communications, spreadsheet automation, and pipeline reporting.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7.6 Blog Section -->
+        <section id="blog" class="blog-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Insights</span>
+                    <h2>My Learning Blog</h2>
+                </div>
+                <div class="blog-grid reveal">
+                    <!-- Post 1 -->
+                    <div class="blog-card">
+                        <div class="blog-card-meta">June 15, 2026 • 3 min read</div>
+                        <h3>Getting Started with Data Cleaning in Excel</h3>
+                        <p class="blog-card-excerpt">A breakdown of my favorite techniques (such as text-to-columns, TRIM, and conditional formatting) to turn messy CSV sheets into clean tables.</p>
+                        <button class="btn-text open-blog" data-id="blog-1">Read Article <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                    <!-- Post 2 -->
+                    <div class="blog-card">
+                        <div class="blog-card-meta">May 28, 2026 • 5 min read</div>
+                        <h3>Why B.Tech AI Students Must Focus on Communication</h3>
+                        <p class="blog-card-excerpt">Reflecting on how strong writing, active email outreach, and structured communication can accelerate technical engineering careers.</p>
+                        <button class="btn-text open-blog" data-id="blog-2">Read Article <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7.7 Contact Section -->
+        <section id="contact" class="contact-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Let's Connect</span>
+                    <h2>Get In Touch</h2>
+                </div>
+                <div class="contact-grid reveal">
+                    <div class="contact-info">
+                        <h3>Let's collaborate!</h3>
+                        <p>I'm open to internship opportunities, collaborative projects, or academic discussions. Reach out via email, LinkedIn, or send a message right through the contact form.</p>
+                        <div class="contact-links">
+                            <a href="mailto:tesia.srivastava@gmail.com" class="contact-link-item">
+                                <i class="fa-solid fa-envelope"></i>
+                                <span>tesia.srivastava@gmail.com</span>
+                            </a>
+                            <div class="contact-link-item">
+                                <i class="fa-solid fa-map-location-dot"></i>
+                                <span>Devanahalli, Bengaluru, Karnataka, India</span>
+                            </div>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="contact-form-wrapper">
+                        <form id="contact-form" class="contact-form">
+                            <div class="form-group">
+                                <label for="form-name">Name</label>
+                                <input type="text" id="form-name" name="name" required placeholder="Your Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="form-email">Email</label>
+                                <input type="email" id="form-email" name="email" required placeholder="your.email@example.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="form-message">Message</label>
+                                <textarea id="form-message" name="message" rows="5" required placeholder="Hello! I would like to discuss..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+                        </form>
+                        <div id="form-status" class="form-status"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container footer-container">
+            <p>&copy; 2026 Tesia Srivastava. Built with passion & clean code.</p>
+            <a href="#home" class="back-to-top" aria-label="Back to top">
+                <i class="fa-solid fa-arrow-up"></i>
+            </a>
+        </div>
+    </footer>
+
+    <!-- Detailed Details Modal -->
+    <div id="details-modal" class="modal-overlay" aria-hidden="true">
+        <div class="modal-container" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+            <button class="modal-close" id="modal-close" aria-label="Close modal">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <div class="modal-content-body" id="modal-body">
+                <!-- Injected dynamically by JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Application JavaScript -->
+    <script src="app.js"></script>
+</body>
+</html>
