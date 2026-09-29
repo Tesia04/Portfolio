@@ -90,6 +90,17 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
+            align-items: flex-start;
+        }
+
+        .profile-img {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid var(--primary);
+            margin-bottom: 1.5rem;
+            box-shadow: 0 0 20px rgba(37, 99, 235, 0.3);
         }
 
         .hero h1 {
@@ -226,14 +237,20 @@
     </nav>
 
     <div class="container">
-       <!-- Hero Section -->
-<section class="hero" id="home" style="text-align: center;">
-    <!-- Profile Picture -->
-    <img src="profile.jpg" alt="Tesia Srivastava" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 3px solid var(--primary); margin-bottom: 1.5rem;">
-    
-    <p style="color: var(--primary); font-weight: 600;">B.Tech Student @ REVA University</p>
-    <h1>Hi, I'm Tesia Srivastava</h1>
-    ...
+        
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <!-- IMPORTANT: Make sure your image file is uploaded to GitHub and matches this filename exactly -->
+            <img src="profile.jpg" alt="Tesia Srivastava" class="profile-img">
+            <p style="color: var(--primary); font-weight: 600;">B.Tech Student @ REVA University</p>
+            <h1>Hi, I'm Tesia Srivastava</h1>
+            <p class="subtitle">Aspiring AI & Data Science Professional</p>
+            <p>Currently pursuing B.Tech in Artificial Intelligence & Data Science at REVA University, Bengaluru. I specialize in translating raw data into clear business insights, leveraging Python, machine learning, and Excel automation, combined with strong communication skills for corporate and consulting environments.</p>
+            <div class="btn-group">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+        </section>
 
         <!-- About Section -->
         <section id="about">
@@ -246,7 +263,7 @@
                 </div>
                 <div>
                     <h3>What I'm Focused On Now</h3>
-                    <ul style="list-style-position: inside; color: var(--text-muted); margin-top: 0.5rem;">
+                    <ul style="list-style-position: inside; color: var(--text-muted); margin-top: 0.5rem; line-height: 2;">
                         <li><strong>Data Analysis:</strong> Processing and structures in Excel and Python</li>
                         <li><strong>ML Basics:</strong> Regressions, classification models, and statistics</li>
                         <li><strong>Communication:</strong> Corporate outreach, email drafting, and sales navigation</li>
@@ -345,7 +362,7 @@
                 </div>
                 <div class="card">
                     <h3>Why B.Tech AI Students Must Focus on Communication</h3>
-                    <p style="color: var(--text-muted); font-size: 0.85rem;">May 28, 2026 • 5 min read</p>
+                    <p style="color: var(--text-muted); font-size: 0.85rem;">May 28, 2026 • 3 min read</p>
                     <p style="margin-top: 0.5rem;">Reflecting on how strong writing, active email outreach, and structured communication can accelerate technical engineering careers.</p>
                 </div>
             </div>
